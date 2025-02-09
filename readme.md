@@ -42,3 +42,37 @@ git init
  git add index.js use kr ke
 
  step-14 git commit -m first commit
+
+
+
+
+
+
+ use this all command with their requirement 
+ git init   ----------------->(initialize)
+git add . --------------->(saare files ko add krne k liye)
+git commit -m "first commit" ----------------->(commit krne k liye)
+git branch -M main -------------------->(branch change krne k liye, branch ka naam)
+git remote add origin https://github.com/sahilsinghpanwar/backends.git ------------------>(github repo ko connect krne k liye)
+git push -u origin main --------------->(github repo ko push krne k liye)
+
+
+
+
+
+aab digital ocean ye kaam vaise devops ka hota h ke aapke code production mai kaise deploy krna h (vaise paid h ye)
+
+
+
+last mai hum github sai ek api ko add krange 
+const githubData = {
+
+
+}
+
+app.get('/github', (req, res) => {
+    res.json(githubData);
+})
+
+
+hum res.json, res.cookies or bhi use kr skte h for more information reach out express.js website 
